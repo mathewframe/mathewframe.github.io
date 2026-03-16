@@ -1,0 +1,19 @@
+---
+title: "Projects"
+---
+
+A selection of data and analytics projects in energy finance and risk management.
+
+### [WTI Options Portfolio: Full Greek P&L Attribution](projects/Greek_PL_Attribution_WTI.html)
+
+A full Greek P&L attribution analysis of a WTI crude oil options portfolio. From Finance 452: Financial Trading and Analytics at the University of Alberta.
+
+### [Crude Oil Trading Algorithm](projects/Crude_Oil_Quantitative_Trading_Project.html)
+
+A quantitative trading strategy built around crack spread dynamics in the crude oil market. From Finance 440: Commodity Trading and Analytics at the University of Alberta.
+
+### [Natural Gas Trading Simulation](projects/Natural_Gas_Trading_Simulation_Project.html)
+
+A trading simulation project modelling natural gas market dynamics. From Finance 440: Commodity Trading and Analytics at the University of Alberta.
+
+### 

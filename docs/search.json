@@ -2,15 +2,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Test Website",
+    "title": "Mathew Frame",
     "section": "",
-    "text": "This page is under construction."
+    "text": "Energy Finance Student | Commodity Analytics | Risk Management\nAspiring energy trading analytics professional with experience developing quantitative supply-demand, pricing, and scenario models for commodity market decision making. Proficient in R and Excel for building analytics tools and automating workflows. Strong interest in North American energy markets."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Mathew Frame",
+    "title": "About",
     "section": "",
-    "text": "Mathew is a fourth-year finance student at the University of Alberta with a proven track record of exceeding expectations both personally and professionally. In his role at SGI, he found a way to automate over 100 annual hours spent on reporting data. Within 2 months Mathew was tasked with leading and training his team of 9 employees through a major software transition. In his first two weeks at CNRL, Mathew learned how to read engineering drawings from all disciplines and completed analysis of a project worth over $5 million. By the end of his work term, he was collaborating with engineers to sharpen estimates on a project worth over $50 million.\nIn his final two years of studies, Mathew has focused his learning on data science and risk management. He has earned an average GPA across 9 finance courses of 3.87/4.00 while working part-time as an insurance underwriting analyst, teaching assistant, and finance tutor.\nMathew is seeking opportunities to grow his skillset and work on impactful teams in the energy sector."
+    "text": "Mathew is a fourth-year finance student at the University of Alberta who is passionate about energy, risk management, and building systems.\nIn his role at SGI, he automated over 50 annual hours spent on reporting data. Within 2 months of employment Mathew was tasked with leading and training his team of 9 colleagues through a major software transition.\nIn his first two weeks at CNRL, Mathew learned how to read engineering drawings from all disciplines and completed a LEM analysis of a project worth over $5 million. By the end of his work term, he was collaborating with engineers to sharpen estimates on projects worth over $50 million.\nIn his final two years of studies, Mathew has focused his learning on data science and risk management. He has earned an average GPA across 9 finance courses of 3.87/4.00 while working part-time as an insurance underwriting analyst, teaching assistant, and finance tutor.\nMathew is seeking opportunities to grow his skillset and work on impactful teams in the energy sector."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A selection of data and analytics projects in energy finance and risk management.\n\nWTI Options Portfolio: Full Greek P&L Attribution\nA full Greek P&L attribution analysis of a WTI crude oil options portfolio. From Finance 452: Financial Trading and Analytics at the University of Alberta.\n\n\nCrude Oil Trading Algorithm\nA quantitative trading strategy built around crack spread dynamics in the crude oil market. From Finance 440: Commodity Trading and Analytics at the University of Alberta.\n\n\nNatural Gas Trading Simulation\nA trading simulation project modelling natural gas market dynamics. From Finance 440: Commodity Trading and Analytics at the University of Alberta."
   }
 ]

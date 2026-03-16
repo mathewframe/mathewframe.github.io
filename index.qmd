@@ -1,5 +1,7 @@
 ---
-title: "Test Website"
+title: "Mathew Frame"
 ---
 
-This page is under construction.
+*Energy Finance Student* \| *Commodity Analytics* \| *Risk Management*
+
+Aspiring energy trading analytics professional with experience developing quantitative supply-demand, pricing, and scenario models for commodity market decision making. Proficient in R and Excel for building analytics tools and automating workflows. Strong interest in North American energy markets.
