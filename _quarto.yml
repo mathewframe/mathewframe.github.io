@@ -4,13 +4,13 @@ project:
 
 website:
   title: "Mathew Frame"
+  site-url: https://mathewframe.github.io
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: About
       - href: projects.qmd
         text: Projects
-      - about.qmd
 
 format:
   html:

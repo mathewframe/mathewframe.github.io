@@ -91,15 +91,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -117,10 +113,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#wti-options-portfolio-full-greek-pl-attribution" id="toc-wti-options-portfolio-full-greek-pl-attribution" class="nav-link active" data-scroll-target="#wti-options-portfolio-full-greek-pl-attribution">WTI Options Portfolio: Full Greek P&amp;L Attribution</a></li>
+  <li><a href="#natural-gas-trading-simulation" id="toc-natural-gas-trading-simulation" class="nav-link active" data-scroll-target="#natural-gas-trading-simulation">Natural Gas Trading Simulation</a></li>
+  <li><a href="#wti-options-portfolio-full-greek-pl-attribution" id="toc-wti-options-portfolio-full-greek-pl-attribution" class="nav-link" data-scroll-target="#wti-options-portfolio-full-greek-pl-attribution">WTI Options Portfolio: Full Greek P&amp;L Attribution</a></li>
   <li><a href="#crude-oil-trading-algorithm" id="toc-crude-oil-trading-algorithm" class="nav-link" data-scroll-target="#crude-oil-trading-algorithm">Crude Oil Trading Algorithm</a></li>
-  <li><a href="#natural-gas-trading-simulation" id="toc-natural-gas-trading-simulation" class="nav-link" data-scroll-target="#natural-gas-trading-simulation">Natural Gas Trading Simulation</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#algorithmic-eats" id="toc-algorithmic-eats" class="nav-link" data-scroll-target="#algorithmic-eats">Algorithmic Eats</a></li>
+  <li><a href="#fixed-income-ir-management" id="toc-fixed-income-ir-management" class="nav-link" data-scroll-target="#fixed-income-ir-management">Fixed Income IR Management</a></li>
   </ul>
 </nav>
     </div>
@@ -147,20 +144,30 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>A selection of data and analytics projects in energy finance and risk management.</p>
+<section id="natural-gas-trading-simulation" class="level3">
+<h3 class="anchored" data-anchor-id="natural-gas-trading-simulation"><a href="projects/Natural_Gas_Trading_Simulation_Project.html">Natural Gas Trading Simulation</a></h3>
+<p>A simulation-based trading strategy for Henry Hub natural gas futures driven by supply/demand fundamental analysis. Integrates EIA storage data, NOAA weather data (HDD/CDD), and seasonal patterns to construct and evaluate time spreads, location spreads, and inter-commodity spreads. Built in R with interactive Plotly visualizations.</p>
+<p><em>Finance 440: Commodity Trading and Analytics at the University of Alberta.</em></p>
+</section>
 <section id="wti-options-portfolio-full-greek-pl-attribution" class="level3">
 <h3 class="anchored" data-anchor-id="wti-options-portfolio-full-greek-pl-attribution"><a href="projects/Greek_PL_Attribution_WTI.html">WTI Options Portfolio: Full Greek P&amp;L Attribution</a></h3>
-<p>A full Greek P&amp;L attribution analysis of a WTI crude oil options portfolio. From Finance 452: Financial Trading and Analytics at the University of Alberta.</p>
+<p>A P&amp;L attribution framework for a WTI crude oil options portfolio. Computes Delta, Gamma, Vega, Vanna, and Theta using central differences, evaluates delta-hedging strategies, and validates P&amp;L attribution under simulated market moves.</p>
+<p><em>Finance 452: Financial Trading and Analytics at the University of Alberta.</em></p>
 </section>
 <section id="crude-oil-trading-algorithm" class="level3">
 <h3 class="anchored" data-anchor-id="crude-oil-trading-algorithm"><a href="projects/Crude_Oil_Quantitative_Trading_Project.html">Crude Oil Trading Algorithm</a></h3>
-<p>A quantitative trading strategy built around crack spread dynamics in the crude oil market. From Finance 440: Commodity Trading and Analytics at the University of Alberta.</p>
+<p>An autonomous quantitative trading algorithm that generates buy/sell signals from 3-2-1 crack spread dynamics to speculate on WTI crude oil futures. Incorporates parameter optimization, position sizing, and commission/slippage modelling, with backtesting across volatile periods including COVID-19 and the Russia-Ukraine conflict. Live futures prices sourced via the Zema API.</p>
+<p><em>Finance 440: Commodity Trading and Analytics at the University of Alberta.</em></p>
 </section>
-<section id="natural-gas-trading-simulation" class="level3">
-<h3 class="anchored" data-anchor-id="natural-gas-trading-simulation"><a href="projects/Natural_Gas_Trading_Simulation_Project.html">Natural Gas Trading Simulation</a></h3>
-<p>A trading simulation project modelling natural gas market dynamics. From Finance 440: Commodity Trading and Analytics at the University of Alberta.</p>
+<section id="algorithmic-eats" class="level3">
+<h3 class="anchored" data-anchor-id="algorithmic-eats"><a href="https://github.com/LBoyd02/Algorithmic-Eats">Algorithmic Eats</a></h3>
+<p>An R Shiny dashboard for macro-nutrient optimization and meal planning. Features a grocery optimizer using linear programming, a weight simulation tool, and a dynamic gym map powered by the Google Maps API. Packaged as a Docker image. Collaborative project.</p>
+<p><em>Finance 451: FinTech III at the University of Alberta.</em></p>
 </section>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"></h3>
+<section id="fixed-income-ir-management" class="level3">
+<h3 class="anchored" data-anchor-id="fixed-income-ir-management"><a href="https://github.com/nphilippon/fixedinc_ir_management">Fixed Income IR Management</a></h3>
+<p>An R Shiny dashboard for fixed income portfolio management. Displays historical US Treasury yield curves and forward rate curves sourced from FRED, a portfolio builder for bond positions, and Greek-based risk metrics. Implements bond pricing calculations in C++ via Rcpp. Collaborative project.</p>
+<p><em>Finance 451: FinTech III at the University of Alberta.</em></p>
 
 
 </section>
@@ -238,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/mathewframe\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
