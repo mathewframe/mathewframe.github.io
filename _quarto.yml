@@ -5,6 +5,7 @@ project:
 website:
   title: "Mathew Frame"
   site-url: https://mathewframe.github.io
+  google-analytics: "G-4V1PZP0KMR"
   navbar:
     left:
       - href: index.qmd
