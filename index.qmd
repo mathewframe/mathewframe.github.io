@@ -9,7 +9,7 @@ about:
 
 *Energy Finance Student* \| *Commodity Analytics* \| *Risk Management*
 
-Mathew is a fourth-year finance student at the University of Alberta and aspiring energy trading analytics professional with experience developing quantitative supply-demand, pricing, and scenario models for commodity market decision making. Proficient in R and Excel for building analytics tools and automating workflows. Strong interest in North American energy markets.
+Mathew is a finance graduate from the University of Alberta and aspiring energy trading analytics professional with experience developing quantitative supply-demand, uncertainty and scenario models, market dashboards, and actionable results for commodity market decision making. Proficient in R and Excel for building analytics tools and automating workflows. Strong interest in North American energy markets.
 
 In his role at SGI, he automated over 50 annual hours spent on reporting data. Within 2 months of employment Mathew was tasked with leading and training his team of 9 colleagues through a major software transition.
 
