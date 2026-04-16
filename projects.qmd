@@ -4,6 +4,12 @@ title: "Projects"
 
 A selection of data and analytics projects in energy finance and risk management.
 
+### [Commodity Market Dynamics](https://commodity-dynamics-production.up.railway.app/)
+
+An R Shiny dashboard for exploring commodity market structure across WTI crude, Brent crude, natural gas, RBOB gasoline, and heating oil. Features forward curve visualization in 2D, 3D, and yearly comparison views, implied convenience yield derived from the cost-of-carry model, realized volatility surfaces, STL seasonal decomposition, cross-commodity co-dynamics, minimum variance hedge ratio analysis, and EIA supply/demand balances. Packaged as a Docker image and deployed via Railway.
+
+*Finance 451: FinTech III at the University of Alberta.*
+
 ### [Natural Gas Trading Simulation](projects/Natural_Gas_Trading_Simulation_Project.html)
 
 A simulation-based trading strategy for Henry Hub natural gas futures driven by supply/demand fundamental analysis. Integrates EIA storage data, NOAA weather data (HDD/CDD), and seasonal patterns to construct and evaluate time spreads, location spreads, and inter-commodity spreads. Built in R with interactive Plotly visualizations.
@@ -21,6 +27,12 @@ A P&L attribution framework for a WTI crude oil options portfolio. Computes Delt
 An autonomous quantitative trading algorithm that generates buy/sell signals from 3-2-1 crack spread dynamics to speculate on WTI crude oil futures. Incorporates parameter optimization, position sizing, and commission/slippage modelling, with backtesting across volatile periods including COVID-19 and the Russia-Ukraine conflict. Live futures prices sourced via the Zema API.
 
 *Finance 440: Commodity Trading and Analytics at the University of Alberta.*
+
+### [Sector Rotation Trading Algorithm](projects/Mathew_Frame_QTP.html)
+
+A trading algorithm built in R, rotating across 11 SPDR sector ETFs using K-Means and hierarchical clustering to identify Cyclical and Defensive asset groupings. Features a Kalman Filter local-level model as an adaptive price baseline, with a 20-day SMA minus Kalman spread as a stress detection signal, monthly rebalancing, and equal-weight fallback during confirmed downtrends. Optimization via parallel grid search maximizing Omega Ratio subject to a Calmar floor, with COVID-period robustness testing. 
+
+*Finance 452: Financial Trading and Analytics at the University of Alberta.*
 
 ### [Algorithmic Eats](https://github.com/LBoyd02/Algorithmic-Eats)
 

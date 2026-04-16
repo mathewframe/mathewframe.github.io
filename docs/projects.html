@@ -67,6 +67,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4V1PZP0KMR"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-4V1PZP0KMR', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -113,9 +122,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#natural-gas-trading-simulation" id="toc-natural-gas-trading-simulation" class="nav-link active" data-scroll-target="#natural-gas-trading-simulation">Natural Gas Trading Simulation</a></li>
+  <li><a href="#commodity-market-dynamics" id="toc-commodity-market-dynamics" class="nav-link active" data-scroll-target="#commodity-market-dynamics">Commodity Market Dynamics</a></li>
+  <li><a href="#natural-gas-trading-simulation" id="toc-natural-gas-trading-simulation" class="nav-link" data-scroll-target="#natural-gas-trading-simulation">Natural Gas Trading Simulation</a></li>
   <li><a href="#wti-options-portfolio-full-greek-pl-attribution" id="toc-wti-options-portfolio-full-greek-pl-attribution" class="nav-link" data-scroll-target="#wti-options-portfolio-full-greek-pl-attribution">WTI Options Portfolio: Full Greek P&amp;L Attribution</a></li>
   <li><a href="#crude-oil-trading-algorithm" id="toc-crude-oil-trading-algorithm" class="nav-link" data-scroll-target="#crude-oil-trading-algorithm">Crude Oil Trading Algorithm</a></li>
+  <li><a href="#sector-rotation-trading-algorithm" id="toc-sector-rotation-trading-algorithm" class="nav-link" data-scroll-target="#sector-rotation-trading-algorithm">Sector Rotation Trading Algorithm</a></li>
   <li><a href="#algorithmic-eats" id="toc-algorithmic-eats" class="nav-link" data-scroll-target="#algorithmic-eats">Algorithmic Eats</a></li>
   <li><a href="#fixed-income-ir-management" id="toc-fixed-income-ir-management" class="nav-link" data-scroll-target="#fixed-income-ir-management">Fixed Income IR Management</a></li>
   </ul>
@@ -144,6 +155,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>A selection of data and analytics projects in energy finance and risk management.</p>
+<section id="commodity-market-dynamics" class="level3">
+<h3 class="anchored" data-anchor-id="commodity-market-dynamics"><a href="https://commodity-dynamics-production.up.railway.app/">Commodity Market Dynamics</a></h3>
+<p>An R Shiny dashboard for exploring commodity market structure across WTI crude, Brent crude, natural gas, RBOB gasoline, and heating oil. Features forward curve visualization in 2D, 3D, and yearly comparison views, implied convenience yield derived from the cost-of-carry model, realized volatility surfaces, STL seasonal decomposition, cross-commodity co-dynamics, minimum variance hedge ratio analysis, and EIA supply/demand balances. Packaged as a Docker image and deployed via Railway.</p>
+<p><em>Finance 451: FinTech III at the University of Alberta.</em></p>
+</section>
 <section id="natural-gas-trading-simulation" class="level3">
 <h3 class="anchored" data-anchor-id="natural-gas-trading-simulation"><a href="projects/Natural_Gas_Trading_Simulation_Project.html">Natural Gas Trading Simulation</a></h3>
 <p>A simulation-based trading strategy for Henry Hub natural gas futures driven by supply/demand fundamental analysis. Integrates EIA storage data, NOAA weather data (HDD/CDD), and seasonal patterns to construct and evaluate time spreads, location spreads, and inter-commodity spreads. Built in R with interactive Plotly visualizations.</p>
@@ -158,6 +174,11 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="crude-oil-trading-algorithm"><a href="projects/Crude_Oil_Quantitative_Trading_Project.html">Crude Oil Trading Algorithm</a></h3>
 <p>An autonomous quantitative trading algorithm that generates buy/sell signals from 3-2-1 crack spread dynamics to speculate on WTI crude oil futures. Incorporates parameter optimization, position sizing, and commission/slippage modelling, with backtesting across volatile periods including COVID-19 and the Russia-Ukraine conflict. Live futures prices sourced via the Zema API.</p>
 <p><em>Finance 440: Commodity Trading and Analytics at the University of Alberta.</em></p>
+</section>
+<section id="sector-rotation-trading-algorithm" class="level3">
+<h3 class="anchored" data-anchor-id="sector-rotation-trading-algorithm"><a href="projects/Mathew_Frame_QTP.html">Sector Rotation Trading Algorithm</a></h3>
+<p>A trading algorithm built in R, rotating across 11 SPDR sector ETFs using K-Means and hierarchical clustering to identify Cyclical and Defensive asset groupings. Features a Kalman Filter local-level model as an adaptive price baseline, with a 20-day SMA minus Kalman spread as a stress detection signal, monthly rebalancing, and equal-weight fallback during confirmed downtrends. Optimization via parallel grid search maximizing Omega Ratio subject to a Calmar floor, with COVID-period robustness testing.</p>
+<p><em>Finance 452: Financial Trading and Analytics at the University of Alberta.</em></p>
 </section>
 <section id="algorithmic-eats" class="level3">
 <h3 class="anchored" data-anchor-id="algorithmic-eats"><a href="https://github.com/LBoyd02/Algorithmic-Eats">Algorithmic Eats</a></h3>
